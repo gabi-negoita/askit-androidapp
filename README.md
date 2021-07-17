@@ -1,5 +1,5 @@
 
-# Askit android application
+# Askit android application [INCOMPLETE]
 
 [RO]: Aplicație android de tip întrebări și răspunsuri pentru crearea unei comunități
 
