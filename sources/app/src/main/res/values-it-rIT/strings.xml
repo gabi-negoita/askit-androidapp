@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">askit-mobile</string>
+    <string name="open">Aperta</string>
+    <string name="close">Vicina</string>
+    <string name="subject">Soggetta</string>
+    <string name="category">Categoria</string>
+    <string name="time">Tempo</string>
+    <string name="point_separator">•</string>
+    <string name="username">Nome utente</string>
+    <string name="search_by_title">"Ricerca per titolo "</string>
+    <string name="filter_results">Filtra i risultati</string>
+    <string name="answers">risposte</string>
+    <string name="votes">voti</string>
+    <string name="apply_filters">Applica filtri</string>
+    <string name="profile">Profilo</string>
+    <string name="questions">Domande</string>
+    <string name="ask_question">Fai una domanda</string>
+    <string name="home">Casa</string>
+    <string name="info">Informazioni</string>
+    <string name="public_info">Pubblico</string>
+    <string name="get_access">Avere accesso</string>
+    <string name="log_in">Accesso</string>
+    <string name="sign_up">Iscriviti</string>
+    <string name="askit_logo">Askit logo</string>
+    <string name="select_category">Seleziona categoria</string>
+</resources>

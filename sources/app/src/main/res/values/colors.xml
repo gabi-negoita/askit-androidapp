@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_1">#5484CE</color>
+    <color name="focused_blue_icon">#2185D0</color>
+    <color name="disabled_blue_icon">#A9C1E6</color>
+    <color name="teal_icon">#00B5AD</color>
+    <color name="ripple">#DEDEDE</color>
+    <color name="error_text">#AE5755</color>
+    <color name="error_light_background">#FFF6F6</color>
+    <color name="error_background">#E04848</color>
+    <color name="disabled_text">#999999</color>
+    <color name="focused_text">#0D0D0D</color>
+    <color name="light_focused_text">#212121</color>
+    <color name="light_gray_border">#606060</color>
+
+    <!--Theme colors-->
+    <color name="askit_teal">#6BB4AE</color>
+    <color name="askit_blue">#5484CE</color>
+    <color name="askit_blue_light">#A9C1E6</color>
+    <color name="askit_blue_lighter">#FAFFFF</color>
+    <color name="askit_orange">#D88231</color>
+    <color name="askit_yellow">#EBC53A</color>
+    <color name="askit_yellow_light">#FDFAF3</color>
+    <color name="askit_green">#70B951</color>
+    <color name="askit_gray">#999999</color>
+    <color name="askit_gray_dark">#666666</color>
+    <color name="askit_gray_light">#DEDEDE</color>
+
+
+
+
+
+</resources>

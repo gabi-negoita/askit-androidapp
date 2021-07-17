@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">askit-mobile</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="view_question">View question</string>
+
+    <string name="sort_by">Sort by</string>
+    <string name="newest_first">Newest first</string>
+    <string name="oldest_first">Oldest first</string>
+    <string name="most_votes">Most votes</string>
+    <string name="least_votes">Least votes</string>
+    <string name="most_answers">Most answers</string>
+    <string name="least_answers">Least answers</string>
+    <string name="title_a_to_z">Title A to Z</string>
+    <string name="title_z_to_a">Title Z to A</string>
+    <string-array name="sort_by_array">
+        <item>@string/sort_by</item>
+        <item>@string/newest_first</item>
+        <item>@string/oldest_first</item>
+        <item>@string/most_votes</item>
+        <item>@string/least_votes</item>
+        <item>@string/most_answers</item>
+        <item>@string/least_answers</item>
+        <item>@string/title_a_to_z</item>
+        <item>@string/title_z_to_a</item>
+    </string-array>
+
+    <string name="select_category">Select category</string>
+
+    <string name="seconds_ago">seconds ago</string>
+    <string name="a_minute_ago">a minute ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="an_hour_ago">an hour ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="yesterday">yesterday</string>
+    <string name="days_ago">days ago</string>
+    <string name="months_ago">months ago</string>
+    <string name="a_year_ago">a year ago</string>
+    <string name="years_ago">years ago</string>
+
+    <string name="subject">Subject</string>
+    <string name="category">Category</string>
+    <string name="time">Time</string>
+    <string name="point_separator">•</string>
+    <string name="username">Username</string>
+    <string name="search_by_title">Search by title</string>
+    <string name="filter_results">Filter results</string>
+    <string name="answers">answers</string>
+    <string name="votes">votes</string>
+    <string name="apply_filters">Apply filters</string>
+    <string name="profile">Profile</string>
+    <string name="questions">Questions</string>
+    <string name="ask_question">Ask question</string>
+    <string name="home">Home</string>
+    <string name="info">Information</string>
+    <string name="public_info">Public</string>
+    <string name="get_access">Get access</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="askit_logo">Askit logo</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">askit-mobil</string>
+    <string name="open">Deschide</string>
+    <string name="close">Închide</string>
+    <string name="subject">Subiect</string>
+    <string name="category">Categorie</string>
+    <string name="time">Timp</string>
+    <string name="point_separator">•</string>
+    <string name="username">Utilizator</string>
+    <string name="search_by_title">Caută după titlu</string>
+    <string name="filter_results">Filtrează rezultatele</string>
+    <string name="answers">răspunsuri</string>
+    <string name="votes">voturi</string>
+    <string name="apply_filters">Aplică filtre</string>
+    <string name="profile">Profil</string>
+    <string name="questions">Întrebări</string>
+    <string name="ask_question">Pune o întrebare</string>
+    <string name="home">Acasă</string>
+    <string name="info">Informații</string>
+    <string name="public_info">Public</string>
+    <string name="get_access">Obține acces</string>
+    <string name="log_in">Conectează-te</string>
+    <string name="sign_up">Înscrie-te</string>
+    <string name="askit_logo">Siglă Askit</string>
+    <string name="select_category">Selectează categoria</string>
+    <string name="sort_by">Sortează după</string>
+    <string name="newest_first">Cele mai recente</string>
+    <string name="oldest_first">Cele mai vechi</string>
+    <string name="most_votes">Cele mai multe voturi</string>
+    <string name="least_votes">Cele mai puține voturi</string>
+    <string name="most_answers">Cele mai multe răspunsuri</string>
+    <string name="least_answers">Cele mai puține răspunsuri</string>
+    <string name="title_a_to_z">Titlu de la A la Z</string>
+    <string name="title_z_to_a">Titlu de la Z la A</string>
+    <string name="seconds_ago">secunde în urmă</string>
+    <string name="a_minute_ago">acum un minut</string>
+    <string name="minutes_ago">minute în urma</string>
+    <string name="an_hour_ago">acum o oră</string>
+    <string name="hours_ago">ore în urmă</string>
+    <string name="yesterday">ieri</string>
+    <string name="days_ago">zile în urmă</string>
+    <string name="months_ago">luni în urmă</string>
+    <string name="a_year_ago">acum un an</string>
+    <string name="years_ago">ani în urmă</string>
+    <string name="view_question">Vizualizare întrebare</string>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/ripple_effect"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:elevation="2dp"
+    android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/follow_imagebutton"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/ic_star_outline"
+        android:padding="8dp"
+        android:rotationY="180"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/up_vote_imagebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/up_vote_imagebutton" />
+
+    <TextView
+        android:id="@+id/category_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/category"
+        android:textColor="@color/light_focused_text"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_th"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/point_separator"
+        android:textColor="@color/askit_gray_dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/category_title_textview"
+        app:layout_constraintStart_toEndOf="@+id/category_title_textview"
+        app:layout_constraintTop_toTopOf="@+id/category_title_textview" />
+
+    <TextView
+        android:id="@+id/username_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:drawablePadding="4dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/username"
+        android:textColor="@color/light_focused_text"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_user"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/point_separator"
+        android:textColor="@color/askit_gray_dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/username_textview"
+        app:layout_constraintStart_toEndOf="@+id/username_textview"
+        app:layout_constraintTop_toTopOf="@+id/username_textview" />
+
+    <TextView
+        android:id="@+id/question_time_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:drawablePadding="4dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Time"
+        android:textColor="@color/light_focused_text"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_clock"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/askit_gray_light"
+        app:layout_constraintEnd_toEndOf="@+id/question_time_textview"
+        app:layout_constraintStart_toStartOf="@+id/category_title_textview"
+        app:layout_constraintTop_toBottomOf="@+id/category_title_textview" />
+
+    <TextView
+        android:id="@+id/questions_subject_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/subject"
+        android:textColor="@color/light_focused_text"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/divider"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/askit_gray_light"
+        app:layout_constraintBottom_toTopOf="@+id/votes_textview"
+        app:layout_constraintEnd_toEndOf="@+id/answers_textview"
+        app:layout_constraintStart_toStartOf="@+id/votes_textview" />
+
+    <TextView
+        android:id="@+id/votes_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:drawablePadding="4dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/votes"
+        android:textColor="@color/light_focused_text"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_thumbs_up"
+        app:layout_constraintStart_toStartOf="@+id/questions_subject_textview"
+        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:text="@string/point_separator"
+        android:textColor="@color/askit_gray_dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/votes_textview"
+        app:layout_constraintStart_toEndOf="@+id/votes_textview"
+        app:layout_constraintTop_toTopOf="@+id/votes_textview" />
+
+    <TextView
+        android:id="@+id/answers_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="4dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/answers"
+        android:textColor="@color/light_focused_text"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_question_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
